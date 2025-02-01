@@ -69,18 +69,18 @@ font-optical-sizing: auto;
               </ul>
             </div>
             <img src="c1-assets/logo-header.png" alt="">
-            <a class="font-bold text-xl">Browse <span class="text-orange-100">4</span> Pets</a>
+            <a class="font-bold text-xl hidden sm:block">Browse <span class="text-orange-200">4</span> Pets</a>
           </div>
           <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1">
-              <li><a>Find a pet</a></li>
-                <li><a>Breeds</a></li>
-                <li><a>Contact us</a></li>
+              <li><a class="hidden sm:block">Find a pet</a></li>
+                <li><a class="hidden sm:block">Breeds</a></li>
+                <li><a class="hidden sm:block">Contact us</a></li>
             </ul>
           </div>
           <div></div>
           <div class="navbar-end">
-            <button class="btn btn-ghost btn-circle">
+        <button class="btn btn-ghost btn-circle hidden sm:block">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-5 w-5"
@@ -95,7 +95,7 @@ font-optical-sizing: auto;
               </svg>
             </button>
 
-            <button class="btn btn-ghost btn-circle">
+     <button class="btn btn-ghost btn-circle hidden sm:block">
 
           <div class="indicator">
             <svg
@@ -124,7 +124,7 @@ font-optical-sizing: auto;
       <!-- cat/BANNER -->
        <section class="px-36 relative mb-32 mt-16">
           <!-- contant -->
-           <div class="absolute space-y-5 pt-5">
+           <div class=" relative lg:absolute  space-y-5 pt-5">
             <h1 class="font-adlam font-extrabold text-4xl">Pamper Your Pet, <br> Because They Deserve <br> the Bes</h1>
             <p class=" font-medium text-sm">Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make tails wag with joy!</p>
            <button class="bg-primary-bg px-5 py-2 rounded-lg">Find a pet</button>
@@ -135,12 +135,12 @@ font-optical-sizing: auto;
             </div>
        </section>
     </header>
-    <main class="">
+    <main >
       <!-- card-point -->
       <h1 class="px-36 font-adlam text-[36px] mb-9">Browse By Categories</h1>
-
-      <div class="px-36 grid grid-cols-2 lg:grid-cols-6    ">
-      <div class=" h-64 w-52  space-y-5 rounded-lg bg-[#F9DF8A] mb-32	">
+           
+      <div class="lg:px-36 grid grid-cols-2 lg:grid-cols-6 gap-x-6  ">
+      <div class="flex flex-col items-center h-64 w-40  space-y-5 rounded-lg bg-[#F9DF8A] mb-32	">
         <div class="avatar pt-8 px-12 ">
           <div class="  w-24 rounded-full p-7 bg-[#FFFFFF] ">
             <img src="c1-assets/dog-cartoon.png" />
@@ -148,21 +148,21 @@ font-optical-sizing: auto;
         </div>
         <div class="px-[70px] pb-8">
           <p class="text-lg text-[#000000] pb-3">Dog</p>
-          <small class="text-base	">3 items</small>
+          <small class="text-base	">3items</small>
           </div>
         </div>
-      <div class="ml-6 h-64  lg:w-52  space-y-5 rounded-lg bg-[#F9DF8A] mb-32	">
+      <div class="flex flex-col items-center h-64  w-40   space-y-5 rounded-lg bg-[#F9DF8A] mb-32	">
         <div class="avatar pt-8 px-12 ">
           <div class="  w-24 rounded-full p-7 bg-[#FFFFFF] ">
             <img src="c1-assets/fish-cartoon.png" />
-          </div>
+          </div><br>
         </div>
         <div class="px-[70px] pb-8">
           <p class="text-lg text-[#000000] pb-3">Dog</p>
-          <small class="text-base	">3 items</small>
+          <small class="text-base	">3items</small>
           </div>
         </div>
-      <div class=" lg:ml-6 h-64 w-52  space-y-5 rounded-lg bg-[#F9DF8A] mb-32	">
+      <div class="flex flex-col items-center  h-64 w-40  space-y-5 rounded-lg bg-[#F9DF8A] mb-32	">
         <div class="avatar pt-8 px-12 ">
           <div class="  w-24 rounded-full p-7 bg-[#FFFFFF] ">
             <img src="c1-assets/cat-cartoon.png" />
@@ -170,10 +170,10 @@ font-optical-sizing: auto;
         </div>
         <div class="px-[70px] pb-8">
           <p class="text-lg text-[#000000] pb-3">Dog</p>
-          <small class="text-base	">3 items</small>
+          <small class="text-base	">3items</small>
           </div>
         </div>
-      <div class="lg:ml-6 h-64 w-52  space-y-5 rounded-lg bg-[#F9DF8A] mb-32	">
+      <div class="flex flex-col items-center h-64 w-40  space-y-5 rounded-lg bg-[#F9DF8A] mb-32	">
         <div class="avatar pt-8 px-12 ">
           <div class="  w-24 rounded-full p-7 bg-[#FFFFFF] ">
             <img src="c1-assets/bird-cartoon.png" />
@@ -181,10 +181,10 @@ font-optical-sizing: auto;
         </div>
         <div class="px-[70px] pb-8">
           <p class="text-lg text-[#000000] pb-3">Dog</p>
-          <small class="text-base	">3 items</small>
+          <small class="text-base	">3items</small>
           </div>
         </div>
-      <div class="lg:ml-6 h-64 w-52  space-y-5 rounded-lg bg-[#F9DF8A] mb-32	">
+      <div class="flex flex-col items-center h-64 w-40  space-y-5 rounded-lg bg-[#F9DF8A] mb-32	">
         <div class="avatar pt-8 px-12 ">
           <div class="  w-24 rounded-full p-7 bg-[#FFFFFF] ">
             <img src="c1-assets/mouse-cartoon.png" />
@@ -192,10 +192,10 @@ font-optical-sizing: auto;
         </div>
         <div class="px-[70px] pb-8">
           <p class="text-lg text-[#000000] pb-3">Dog</p>
-          <small class="text-base	">3 items</small>
+          <small class="text-base	">3items</small>
           </div>
         </div>
-      <div class="lg:ml-12 h-64 w-52  space-y-5 rounded-lg  bg-[#F9DF8A] mb-32	">
+      <div class="flex flex-col items-center h-64 w-40  space-y-5 rounded-lg  bg-[#F9DF8A] mb-32	">
         <div class="avatar pt-8 px-12 ">
           <div class="  w-24 rounded-full p-7 bg-[#FFFFFF] ">
             <img src="c1-assets/rabbit-cartoon.png" />
@@ -203,30 +203,30 @@ font-optical-sizing: auto;
         </div>
         <div class="px-[70px] pb-8">
           <p class="text-lg text-[#000000] pb-3">Dog</p>
-          <small class="text-base	">3 items</small>
+          <small class="text-base	">3items</small>
           </div>
         </div>
         </div>
 
         <!-- reding pet product -->
          
-        <section class="bg-[#FFFFFF]  ">
-          <h2 class="adlam-font font-bold text-3xl pl-32 pt-20">Trending Pet Products</h2>
-          <div class="px-32 flex justify-between">
+        <section class="bg-[#FFF9F4] mb-32 ">
+          <h2 class="adlam-font font-bold text-3xl pl-36 pt-20">Trending Pet Products</h2>
+          <div class="ml-36 flex flex-col sm:flex-row items-center">
   
-              <div class="bg-amber-200 w-96 h-80 p-10 relative  rounded-lg my-10">
+              <div class="bg-amber-200 w-96 h-80 p-10 relative  rounded-lg my-10 ">
                   <h3 class="adlam-font font-bold text-xl">T- Shirt For Dogs</h3> <br>
-                  <p class="sora-font">Discover a world of treats, toys, and<br> essentials handpicked for </p> <br>
-                  <button class="bg-white px-3 py-2">Shop Now</button>
-                  <img class="w-52 absolute top-16 ml-40 p-5" src="c1-assets/cute-pet-small.png"> <br>
+       <p class=" text-sm">Discover a world of treats, toys, and <br> essentials handpicked for </p> <br>
+                  <button class="bg-white px-3 py-2 rounded-lg">Shop Now</button>
+         <img class="w-56 relative  lg:absolute top-16  ml-32 mr  p-10" src="c1-assets/cute-pet-small.png"> <br>
               </div>
 
-               <div class="grid  grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-10 ml-10">
+               <div class=" mr-36 grid  grid-cols-2 lg:grid-cols-3 gap-10 ml-3">
                 <div >
                <div class="flex items-center bg-white h-20 w-52 rounded-lg">
                      <div class="bg-slate-50 m-2 ">
                       <img  src="c1-assets/dog-cartoon.png" alt=""> </div>
-                      <div class="ml-5">
+                      <div class="ml-5 ">
                             <p class="text-base	text-[#111111]">4.5</p>
                             <p class="text-xl	font-medium">pet Bed</p>
                             <p class="text-base text-[#111111]">$39.99</p>
@@ -234,7 +234,7 @@ font-optical-sizing: auto;
                   </div>
                 </div>
                 <div>
-                  <div class="flex items-center bg-white h-20 w-52 rounded-lg">
+              <div class="flex items-center bg-white h-20 w-52 rounded-lg">
                      <div class="bg-slate-50 m-2">
                       <img src="c1-assets/fish-cartoon.png" alt=""> </div>
                       <div class="ml-5">
@@ -245,7 +245,7 @@ font-optical-sizing: auto;
                   </div>
                 </div>
                 <div>
-                  <div class="flex items-center bg-white h-20 w-52 rounded-lg">
+               <div class="flex items-center bg-white h-20 w-52 rounded-lg">
                      <div class="bg-slate-50 m-2">
                       <img src="c1-assets/bird-cartoon.png" alt=""> </div>
                       <div class="ml-5">
@@ -256,7 +256,7 @@ font-optical-sizing: auto;
                   </div>
                 </div>
                 <div>
-                  <div class="flex items-center bg-white h-20 w-52 rounded-lg">
+             <div class="flex items-center bg-white h-20 w-52 rounded-lg">
                      <div class="bg-slate-50 m-2">
                       <img src="c1-assets/rabbit-cartoon.png" alt=""> </div>
                       <div class="ml-5">
@@ -267,7 +267,7 @@ font-optical-sizing: auto;
                   </div>
                 </div>
                 <div>
-                  <div class="flex items-center bg-white h-20 w-52 rounded-lg">
+           <div class="flex items-center bg-white h-20 w-52 rounded-lg">
                      <div class="bg-slate-50 m-2">
                       <img src="c1-assets/bird-cartoon.png" alt=""> </div>
                       <div class="ml-5">
@@ -278,7 +278,7 @@ font-optical-sizing: auto;
                   </div>
                 </div>
                 <div>
-                  <div class="flex items-center bg-white h-20 w-52 rounded-lg">
+             <div class="flex items-center bg-white h-20 w-52 rounded-lg">
                      <div class="bg-slate-50 m-2">
                       <img src="c1-assets/pet-couch.png" alt=""> </div>
                       <div class="ml-5">
@@ -300,7 +300,7 @@ font-optical-sizing: auto;
                   </div>
                 </div>
                 <div>
-                  <div class="flex items-center bg-white h-20 w-52 rounded-lg">
+                <div class="flex items-center bg-white h-20 w-52 rounded-lg">
                      <div class="bg-slate-50 m-2">
                       <img src="c1-assets/pet-couch.png" alt=""> </div>
                       <div class="ml-5">
@@ -311,7 +311,7 @@ font-optical-sizing: auto;
                   </div>
                 </div>
                 <div>
-                  <div class="flex items-center bg-white h-20 w-52 rounded-lg">
+             <div class="flex items-center bg-white h-20 w-52 rounded-lg">
                      <div class="bg-slate-50 m-2">
                       <img src="c1-assets/rabbit-cartoon.png" alt=""> </div>
                       <div class="ml-5">
@@ -322,13 +322,76 @@ font-optical-sizing: auto;
                   </div>
                 </div>
                </div>
-    
+    </div>
     </div>
     </section>
+
+
+    <!-- low price -->
+      <h1 class="font-adlam text-4xl	text-[#111111] pl-36 mb-5">Everyday low Price</h1>
+      
+       <section class="mx-36 flex sm:flex-col md:flex-col lg:flex-row gap-5 justify-between  mb-20">
+        <div class="flex items-center justify-between bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] h-80 w-2/3 rounded-lg">
+            <div class="py-10 px-20 ">
+                <p>Under Price</p>
+                <h2 class="font-adlam text-3xl font-bold">Pet Grooming Mitt</h2>
+                <p class="text-white">(Easy Hair Removal)</p>
+                <h2 class="font-adlam font-bold text-3xl">$7.99</h2>
+                
+            </div>
+            <div>
+                <img class="w-64 pb-10 " src="c1-assets/cute-dog-mid.png">
+            </div>
+        </div>
+
+        <div class="flex bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A] h-80 w-1/3 rounded-lg border">
+            <div class="p-10 ">
+                <h2 class="font-bold text-lg">T-Shirt for Dogs</h2>
+                <h2 class="font-adlam font-bold text-3xl text-yellow-200">$7.99</h2>
+            </div>
+            <div class=" relative">
+            <div class="mt-22">
+                <img class="w-60 mt-32 " src="c1-assets/cute-pet-mid.png">
+            </div>
+          </div>
+        </div>
+    </section>  <br> 
     </main>
-    <footer>
+    <footer class="bg-emerald-300">
+      <section class="px-36 py-16 pt-56 flex justify-between flex-col lg:flex-row">
+        <div>
+          <div class="flex items-center">
+            <img src="c1-assets/logo-footer.png">
+            <h3 class="pl-3 font-medium text-2xl">Browse<span class="text-orange-300">4</span>Pets</h3>
+          </div>
+           <p class="py-5 text-xl">Discover a world of treats, toys, and <br> essentials handpicked for your furry <br> friends</p>
+        </div>
+        <div>
+          <h6>Find a pet</h6><br>
+          <h6>Breeds</h6><br>
+          <h6>Contact us</h6>
+        </div>
+        <div class="mt-auto">
+          <div class=" py-6">
+            <h6>Follow Us</h6><br>
+               <div class="flex h-3 w-3 ">
+            <img src="c1-assets/facebook.png" alt="">
+            <img class="ml-3" src="c1-assets/x.png" alt="">
+            <img class="ml-3" src="c1-assets/instagram.png" alt="">
+            <img class="ml-3" src="c1-assets/x.png" alt="">
+          </div>
+          </div>
+
+        </div>
+
+         
+
+
+
+
+
+      </section>
 
     </footer>
-    
-</body>
+  </body>
 </html>
